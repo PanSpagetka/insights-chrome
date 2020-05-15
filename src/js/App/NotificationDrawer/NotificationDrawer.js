@@ -102,7 +102,7 @@ const BasicNotificationDrawer = () => {
                 <MessagesIcon />
                 <Badge className="ins-c-notification-drawer__badge" key={1} isRead>{unreadCount}</Badge>
             </Button>
-            <Drawer isExpanded={showDrawer}>
+            <Drawer isExpanded={showDrawer} className={showDrawer ? "ins-c-notification-show-drawer" : "ins-c-notification-hide-drawer"}>
                 <DrawerContent panelContent={panelContent}>
                     <DrawerContentBody/>
                 </DrawerContent>

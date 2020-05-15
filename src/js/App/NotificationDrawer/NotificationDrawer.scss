@@ -15,3 +15,13 @@
 .ins-c-notification-drawer__body {
        overflow: visible;
 }
+
+.ins-c-notification-show-drawer {
+    position: absolute;
+
+}
+
+.ins-c-notification-hide-drawer {
+    position: absolute;
+    display: none;
+}
